@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenuButton : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    public void laucnhMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
